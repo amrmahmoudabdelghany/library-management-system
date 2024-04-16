@@ -2,6 +2,8 @@
 
  ## Library Management System 
 
+# build : 
+	- navigate to project root directory and execute ' mvn clean install ' 
  # Run : 
      - perform login using email "admin@library.org"  and password "123456" by GET /api/auth and get access token 
      - set retrived access token to Authorization header prefixed with Bearer 
