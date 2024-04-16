@@ -1,9 +1,15 @@
 
- 
+
+ ## Library Management System 
+
+ # Run : 
+     - perform login using email "admin@library.org"  and password "123456" by GET /api/auth and get access token 
+     - set retrived access token to Authorization header prefixed with Bearer 
+     * all endpints needs to be authenticated excpect GET /api/auth
 
 
  Implemented Endpoints  
-
+ 
 -Authentication 
 	 - GET /api/auth : to perform authentication 
 	   
